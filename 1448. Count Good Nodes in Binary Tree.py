@@ -24,4 +24,4 @@ class Solution(object):
 
             return good_node_count + left_count + right_count
 
-        return dfs(root, 0)
+        return dfs(root, float('-inf'))
